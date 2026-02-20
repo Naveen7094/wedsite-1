@@ -71,5 +71,28 @@ ai-fertilizer-recommendation-system/
 </div>
 
 <script src="script.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+
+<div class="login-container">
+    <h2>Login</h2>
+
+    <form onsubmit="return loginUser()">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <p>New User? <a href="register.html">Register Here</a></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
 </body>
 </html>
